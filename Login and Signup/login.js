@@ -27,7 +27,7 @@ login.addEventListener("click", function (event) {
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
-      window.location.href = "http://127.0.0.1:5500/Landing%20Page/index.html";
+      window.location.href = "hhttp://127.0.0.1:5500/Registration-Database/Landing%20Page/homepage.html";
       // ...
     })
     .catch((error) => {
